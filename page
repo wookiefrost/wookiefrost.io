@@ -1,33 +1,13 @@
-import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { DownloadCloud } from "lucide-react";
-
-export default function EcoFriendlyHome() {
-  return (
-    <main className="min-h-screen bg-green-50 text-green-900 p-8">
-      <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Support Environmentally Friendly Solutions</h1>
-        <p className="text-lg max-w-2xl mx-auto">
-          Join us in promoting green technology and sustainable living. We believe
-          in eco-conscious innovation to build a cleaner future for all.
-        </p>
-      </section>
-
-      <section className="flex justify-center">
-        <Card className="w-full max-w-md shadow-xl border border-green-300 bg-white rounded-2xl">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-semibold mb-2 text-green-800">🌿 Introducing GreenPath App</h2>
-            <p className="text-sm mb-4 text-green-700">
-              The newest app helping you track your carbon footprint, reduce waste,
-              and discover sustainable alternatives in your daily life.
-            </p>
-            <Button className="bg-green-600 hover:bg-green-700 text-white">
-              <DownloadCloud className="mr-2 h-4 w-4" /> Download Now
-            </Button>
-          </CardContent>
-        </Card>
-      </section>
-    </main>
-  );
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco-Friendly Solutions</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.jsx"></script>
+  </body>
+</html>
